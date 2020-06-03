@@ -1,0 +1,37 @@
+body{
+    background-color: gray;
+}
+
+.kontener {
+    display: flex;
+}
+ul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 16em;
+}
+nav a{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+nav ul{
+    list-style-type: none;
+}
+.kontener div{
+    color: black;
+    font-size: 2em;
+}
+.kontener div a{
+    font-style: italic;
+    color: greenyellow;
+}
+footer {
+    float: right;
+}

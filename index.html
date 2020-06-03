@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>tytuł</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Krzysztof">
+    <script src="sklep.js"></script>
+</head>
+<body>
+<header>
+<nav>
+    <ul>
+        <li><a href="glowna.html">strona główna</a></li>
+        <li><a href="index.html">sklep</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+        
+    </ul>
+</nav>
+</header>
+<div class="formm">
+        <form method="post"><legend>Dodawanie produktów</legend><br>
+            <p>Nazwa produktu<input type="text" placeholder="nazwa" id="nd"/><br></p>
+            <p>Ilość produktów<input type="number" min="1" placeholder="ilość" id="id"/><br></p>
+            <p>Producent produktu<input type="text" placeholder="producent" id="pd"/><br></p>
+            <p>Cena w złotych<input type="number" min="0"  id="cd"/><br></p>
+            <input type="button"  class="buttons" value="Dodaj" onclick="dodawanie();"/>
+            <input type="reset" class="buttons" value="czyść">
+        </form>
+        
+        </div>
+<table class="tabela" id="tabel">
+    <tr>
+        <th>id</th>
+        <th>nazwa</th>
+        <th>ilość</th>
+        <th>cena</th>
+        <th>producent</th>
+        
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="nazwy"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><input type="button" class="buttons" value="usuń" onclick="deleteRow(this)"></td>
+    </tr>
+</table>
+<footer>
+    <aside><img src="pika1.jpg" alt="pileczka"></aside>
+    <div></div>
+    <p>&copy; Krzysztof Paździór 2020</p>
+</footer>
+</body>
+</html>

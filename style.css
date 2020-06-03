@@ -1,0 +1,68 @@
+body{
+    background-color: #ccc;
+    color: black;
+}
+ul{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-column-gap: 1em;
+}
+nav a{
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+nav ul{
+    list-style-type: none;
+}
+.tabela tr, th, td{
+    border:2px black solid;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 16% 20%;
+}
+.formm{
+    display: grid;
+    grid-template-columns: 7% 20% 20%;
+}
+footer{
+    display: grid;
+    grid-template-columns: 17% 20%;
+}
+input[type=submit]{
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer
+}
+input[type=button] {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer
+
+}
+legend{
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
